@@ -3,6 +3,6 @@ from django.shortcuts import render
 
 def homepage (request):
     context={
-    "msg":"hello CODED!!"
+    "msg":"Hello World!"
     }
-    return render(request,home.html,context)
+    return render(request,"home.html",context)
