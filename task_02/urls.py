@@ -19,5 +19,5 @@ from restaurants.views import x
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Home',views.homepage,name='hello-world'),
+    path('',views.homepage,name='hello-world'),
 ]
